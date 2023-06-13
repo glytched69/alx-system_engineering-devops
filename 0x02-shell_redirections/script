@@ -1,0 +1,9 @@
+#!/bin/bash
+
+shbang="#!/bin/bash"
+
+touch $1
+
+echo $shbang > $1
+
+chmod +x $1
